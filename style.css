@@ -1,11 +1,23 @@
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,0,0,1) 100%);
-color: white;
-margin: 0px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+    margin: 0px;
 }
 
 header {
     padding: 20px;
     border-bottom: 2px solid rgb blue;
+}
+
+.secundario-imagens {
+    display: flex;
+    justify-content: center;
+}
+
+.imagemquatroamg {
+    width: 50%;
+    border: 2px;
+    border-style: solid;
+    border-color: #ffff;
 }
