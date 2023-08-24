@@ -21,3 +21,12 @@ header {
     border-style: solid;
     border-color: #ffff;
 }
+
+.descricao__texto {
+    text-align: center;
+}
+ 
+
+h2 {
+    text-align: center;
+}
