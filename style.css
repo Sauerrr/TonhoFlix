@@ -16,7 +16,7 @@ header {
 }
 
 .imagemquatroamg {
-    width: 50%;
+    height: 25rem;
     border: 2px;
     border-style: solid;
     border-color: #ffff;
@@ -26,7 +26,56 @@ header {
     text-align: center;
 }
  
+h1 {
+    text-align: center;
+}
 
 h2 {
     text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+.container_video {
+    display: flex;
+    justify-content: center;
+}
+
+.loucosimg {
+    height: 25rem;
+    border: 2px;
+    border-style: solid;
+    border-color: #ffff;
+}
+
+.logoimg {
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media (min-width:800px) {
+    .logoimg {
+        width: 8%;
+    }
+
+}
+
+
+.nacional {
+    text-align: center;
+}
+
+.seta {
+   display: flex;
+   justify-content: center;
 }
