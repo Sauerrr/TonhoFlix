@@ -8,6 +8,12 @@ body {
 header {
     padding: 20px;
     border-bottom: 2px solid rgb blue;
+    font-size: 32px;
+    color: white;
+}
+
+header img {
+    position: relative;
 }
 
 .secundario-imagens {
@@ -52,23 +58,20 @@ h3 {
 }
 
 .logoimg {
-    width: 25rem;
     display: flex;
     justify-content: center;
+    width: 10rem;
+    height: auto;
+    margin: 0px;
 }
 
 .topo {
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 
-@media (min-width:800px) {
-    .logoimg {
-        width: 8%;
-    }
-
-}
 
 
 .nacional {
