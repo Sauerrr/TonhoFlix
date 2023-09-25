@@ -1,6 +1,6 @@
 body {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 0, 0, 1) 100%);
+    background: rgb(27,0,179);
+background: linear-gradient(347deg, rgba(27,0,179,0.9220063025210083) 11%, rgba(5,16,170,1) 45%, rgba(0,0,0,1) 72%);
     color: white;
     margin: 0px;
 }
@@ -78,3 +78,9 @@ h3 {
     text-align: center;
 }
 
+.atesorteimg {
+    height: 25rem;
+    border: 2px;
+    border-style: solid;
+    border-color: #ffff;
+}
